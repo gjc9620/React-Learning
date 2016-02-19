@@ -18,11 +18,10 @@ let App = React.createClass({
         <RouteHandler/>
         <Timer start={Date.now()} />
         <Menu items={['Home','About','Contect']} />
+        <div>Hello world!</div>
       </div>
     );
-
-      <div>Hello world!</div>
-    );  }
+  }
 });
 
 let routes = (
